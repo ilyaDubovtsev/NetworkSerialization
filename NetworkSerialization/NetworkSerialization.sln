@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serializat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{750ECBE8-5515-4988-A306-E579E859668E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{EC69CB3E-0B25-4F37-AAA4-6CEACE51F41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{062AB8B1-5DB7-436D-80FD-D71E83D25F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{750ECBE8-5515-4988-A306-E579E859668E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{750ECBE8-5515-4988-A306-E579E859668E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{750ECBE8-5515-4988-A306-E579E859668E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC69CB3E-0B25-4F37-AAA4-6CEACE51F41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC69CB3E-0B25-4F37-AAA4-6CEACE51F41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC69CB3E-0B25-4F37-AAA4-6CEACE51F41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC69CB3E-0B25-4F37-AAA4-6CEACE51F41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062AB8B1-5DB7-436D-80FD-D71E83D25F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062AB8B1-5DB7-436D-80FD-D71E83D25F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062AB8B1-5DB7-436D-80FD-D71E83D25F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062AB8B1-5DB7-436D-80FD-D71E83D25F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
