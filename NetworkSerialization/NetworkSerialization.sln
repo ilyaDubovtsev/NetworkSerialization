@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeClient", "AwesomeClient\AwesomeClient.csproj", "{F65A7892-E414-4CC5-A929-F4A01A4F2199}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingServer", "AmazingServer\AmazingServer.csproj", "{671F4516-781B-4A2E-99D9-C84F5C63F58A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F65A7892-E414-4CC5-A929-F4A01A4F2199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F65A7892-E414-4CC5-A929-F4A01A4F2199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F65A7892-E414-4CC5-A929-F4A01A4F2199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671F4516-781B-4A2E-99D9-C84F5C63F58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671F4516-781B-4A2E-99D9-C84F5C63F58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671F4516-781B-4A2E-99D9-C84F5C63F58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671F4516-781B-4A2E-99D9-C84F5C63F58A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
