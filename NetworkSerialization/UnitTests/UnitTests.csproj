@@ -14,6 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AwesomeClient\AwesomeClient.csproj" />
       <ProjectReference Include="..\Lab1\Lab1.csproj" />
       <ProjectReference Include="..\Serialization\Serialization.csproj" />
     </ItemGroup>

@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace UnitTests.Serialization
+namespace UnitTests.SerializationTest
 {
     [XmlRoot("Input")]
     public class SerializableObject

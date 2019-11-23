@@ -2,18 +2,18 @@ using FluentAssertions;
 using NUnit.Framework;
 using Serialization;
 
-namespace UnitTests.Serialization
+namespace UnitTests.SerializationTest
 {
-    public class JsonSerializationTests
+    public class XmlSerializationTests
     {
-        private JsonSerializationProvider jsonSerializationProvider;
-        private string jsonString;
+        private readonly string xmlString =
+            "<Input><K>10</K><Sums><decimal>1.01</decimal><decimal>2.02</decimal></Sums><Muls><int>1</int><int>4</int></Muls></Input>";
+        private XmlSerializationProvider xmlSerializationProvider;
 
         [SetUp]
         public void Setup()
         {
-            jsonSerializationProvider = new JsonSerializationProvider();
-            jsonString = "{\"K\":10,\"Sums\":[1.01,2.02],\"Muls\":[1,4]}";
+            xmlSerializationProvider = new XmlSerializationProvider();
         }
 
         [Test]
@@ -21,15 +21,15 @@ namespace UnitTests.Serialization
         {
             var input = GetTestSerializableObject();
 
-            var actual = jsonSerializationProvider.Serialize(input);
+            var actual = xmlSerializationProvider.Serialize(input);
 
-            actual.Should().Be(jsonString);
+            actual.Should().Be(xmlString);
         }
 
         [Test]
         public void TestDeserializeSimpleObject()
         {
-            var actual = jsonSerializationProvider.Deserialize<SerializableObject>(jsonString);
+            var actual = xmlSerializationProvider.Deserialize<SerializableObject>(xmlString);
 
             var expected = GetTestSerializableObject();
 
@@ -45,5 +45,6 @@ namespace UnitTests.Serialization
                 Sums = new[]{1.01M, 2.02M}
             };
         }
+
     }
 }
