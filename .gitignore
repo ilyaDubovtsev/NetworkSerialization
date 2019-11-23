@@ -1,0 +1,50 @@
+# git ignore file
+
+# Git merge results
+*.orig
+*.rej
+
+# VS
+*.user
+*.suo
+.vs/
+.vscode/
+_ReSharper*/
+/*.sln
+/*.sln.DotSettings
+
+# Binaries
+[Bb]in
+obj
+precompiled
+ContentBase
+ViewsBase
+/SharedPackages
+packages
+*/Backup/*
+Assemblies
+.release*
+
+# Front
+npm-debug.log*
+yarn-error.log*
+.eslintcache
+node_modules/
+bower_components/
+js-test-coverage
+webpack-assets.json
+gathered_info.json
+
+# Idea
+*idea/
+!/.idea/
+**/.vs/**
+.idea/
+
+
+# Nuget
+*.nupkg
+*.DotSettings
+/NDependOut
+/NDependOut1
+/Webz.ndproj
